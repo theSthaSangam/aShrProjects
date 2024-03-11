@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgb(8, 88, 148), rgb(77, 97, 188), rgb(80, 140, 192), #f4f9f8), url(coding.jpg);
+    height: 130%;
+    background-image: image(url(coding.jpg));
+}
+.logo{
+    /* margin-top: 12px; */
+    margin-left: 12%;
+    /* background-color: rgb(124, 237, 222); */
+    height: 60px;
+    padding: 12px;
+    text-align: center;
+    float: left;
+    width: 15%;
+    border: 4px solid;
+    border-radius: 12px;
+    
+}
+.logo h2{
+    clear: both;
+    padding-top: 13px;
+    padding-left: 3px;
+    text-decoration: overline underline;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+}
+.logo i{
+    font-size: 28px;
+}
+.medias{
+    
+    margin-top: 42px;
+    margin-left: 34%;
+    /* padding-left: 180px; */
+    list-style-type: none;
+    height:25%;
+    width: 65%;
+    /* background-color: rgb(13, 13, 11); */
+    background: transparent;
+    background-size: contain;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 12px;
+    transition: 1000ms;
+}
+.medias ul{
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+.medias ul li{
+    display: inline-block;
+    padding: 20px;
+    width: 60px;
+    border: 3px solid;
+    border-radius: 23px;
+    text-align: center;
+    transition: 1000ms;
+}
+.medias ul li a{
+    color: rgb(81, 103, 229);
+    text-decoration: none;
+    font-weight: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.medias ul li a i{
+    font-size: 25px;
+    color: #fff;
+}
+.medias ul li:hover{
+    background-color: rgb(67, 35, 193);
+    cursor: pointer;
+    border-radius: 12px;
+    transition: colorflow 5s;
+    animation: colorflow 5s infinite;
+}
+.medias ul li a:hover{
+    color: beige;
+}
+.menu{
+    /* position: relative; */
+    width: 60%;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 20%;
+    list-style: none;
+    height: 25%;
+    border: 2px solid;
+    background-color: rgb(2, 25, 59);
+    border: 1px solid;
+    border-radius: 20px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 13px;
+    border: 1px solid;
+    border-radius: 13px;
+    transition: 2000ms;
+}
+.menu ul li a{
+    color: #70968d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active, .menu ul li:hover{
+    background-color: bisque;
+    border-radius: 12px;
+    width: 80px;
+    cursor: pointer;
+}
+.active, .menu ul li a :hover{
+    color: red;
+    
+}
+menu ul li:first-child{
+    border-left: 3px solid;
+}
+.search{
+    margin-left: 30%;
+    align-items: center;
+    /* background-color: #70968d; */
+    width: 40%;
+    height: 60%;
+    border: 2.5px solid;
+    margin-top: 5%;
+    text-align: center;
+    /* border: 2px solid; */
+}
+.search input{
+    margin-top: 2%;
+    height:55px;
+    width: 500px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-top-color: blue;
+    border-bottom-color: black;
+    background: transparent;
+    font-size: 22px;
+    text-align: center;
+}
+.search label{
+    font-size: 18px;
+    padding: 12px;
+    display: block;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+.search input:hover{
+    background-color: rgb(95, 113, 219);
+    cursor: pointer;
+}
+.notice{
+    margin-top: 95px;
+    margin-left: 30px;
+    background-color: cadetblue;
+    height: 350px;
+    float: inline-start;
+    width: 35%;
+    border-radius: 12px;
+}
+.notice:hover{
+    border: 2px solid;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.notice h3{
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(aqua, aliceblue);
+    border-bottom: 4px solid;
+}
+.notice ul{
+    list-style: none;
+    padding-top: 22px;
+    padding-left: 1%;
+}
+.notice ul li{
+    padding: 22px;
+    width: 180px;
+}
+.notice ul li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+.notice ul li:hover{
+    border: 2px solid;
+    border-radius: 23px;
+    cursor: pointer;
+}
+.about{
+    margin-top: 90px;
+    padding: 32px;
+    height: 300px;
+}
+.about h2{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding-top: 1%;
+    padding-left: 60%;
+}
+.about p{
+    padding-top: 2%;
+    padding-left: 50%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.clients{
+    width: 40%;
+    height:300px;
+    margin-top: 80px;
+    margin-left: 60px;
+    float: left;
+    background-color: #70968d;
+    border-radius: 15px;
+}
+.clients h4{
+    padding: 30px;
+}
+.clients i{
+    float: left;
+    font-size: 30px;
+    padding-top: 8px;
+    padding-left: 52px;
+}
+.clients h5{
+    padding-left: 100px;
+    padding-bottom: 1px;
+}
+.services{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 53%;
+    width: 45%;
+    /* background-color: bisque; */
+    border: 1px solid;
+    border-radius: 5px;
+}
+.services:hover{
+    border: 4px solid;
+}
+.services h4{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.services p{
+    padding-left: 13px;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.services ul{
+    /* list-style-type: none; */
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.services ul li{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    width: 65%;
+    border: 2px solid;
+    /* border: 3px solid; */
+    /* text-align: center; */
+    margin-top: 14%;
+    margin-left: 20%;
+}
+form h3{
+    padding-top: 3%;
+    padding-left: 9%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form .register{
+    margin-left: 6%;
+    margin-top: 4%;
+    margin-bottom: 6%;
+    padding: 9%;
+    width: 35%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+form .register input{
+    margin-top: 3%;
+    margin-left: 3%;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 92%; 
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: bold; 
+}
+form .register input:hover{
+    background-color: bisque;
+}
+form .register label{
+    display: block;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+    background-color: black;
+}
+
+.footer ul li{
+    margin-top: 23px;
+    color: aliceblue;
+    display: inline-block;
+    padding-left: 12px;
+    border-left: 2px solid;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+.footer ul li a{
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+.footer ul li:hover{
+    border: 2px solid;
+    color: aqua;
+}
+.footer ul li a:hover{
+    color: aqua;
+}
+.footer h5{
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+}
